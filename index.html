@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coffee landing page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="coffee-landing-page-logo.png"
+        alt="coffee company logo"
+        id="header-img"
+        width="150px"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#why-us" class="nav-link">Why us?</a></li>
+          <li><a href="#our-process" class="nav-link">Our process</a></li>
+          <li><a href="#plans" class="nav-link">Plans</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="container">
+      <section id="join">
+        <h2>High quality beans, direct to your door.</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address"
+          />
+          <input class="btn" type="submit" id="submit" value="Sign up" />
+        </form>
+      </section>
+      <section id="why-us">
+        <div id="icon"><i class="bi bi-cup-hot"></i></div>
+        <div id="text"><p>We have the best quality beans.</p></div>
+        <div id="icon"><i class="bi bi-cup-hot"></i></div>
+        <div id="text"><p>Our beans are of the highest quality.</p></div>
+        <div id="icon"><i class="bi bi-cup-hot"></i></div>
+        <div id="text"><p>Lorem ipsum dolor sit amet.</p></div>
+        <div id="icon"><i class="bi bi-cup-hot"></i></div>
+        <div id="text">Lorem, ipsum dolor.</div>
+      </section>
+      <!-- embedded code from youtube.com -->
+      <section id="our-process">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube.com/embed/C3SahDIVvZ4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="plans">
+        <div id="light-roast" class="product">
+          <div class="roast">Light Roast</div>
+          <h2 class="price">£15/month</h2>
+          <ol>
+            <li>Our standard light roast.</li>
+            <li>Great taste guarentee</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ol>
+          <button class="btn">Order now</button>
+        </div>
+        <div id="medium-roast" class="product">
+          <div class="roast">Medium Roast</div>
+          <h2 class="price">£16.50/month</h2>
+          <ol>
+            <li>Our standard medium roast.</li>
+            <li>Great taste guarentee</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum dolor.</li>
+          </ol>
+          <button class="btn">Order now</button>
+        </div>
+        <div id="dark-roast" class="product">
+          <div class="roast">Dark Roast</div>
+          <h2 class="price">£19/month</h2>
+          <ol>
+            <li>Our signature dark roast.</li>
+            <li>Great taste guarentee</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Highest quality beans.</li>
+          </ol>
+          <button class="btn">Orde now</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
